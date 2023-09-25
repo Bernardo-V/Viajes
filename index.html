@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes a Argentina</title>
+    <!-- Agrega enlaces a las hojas de estilo CSS aquí -->
+  </head>
+  <body>
+    <header>
+      <h1>Viajes a Argentina</h1>
+      <nav>
+        <ul>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#quienessomos">Quienes somos?</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="destinos">
+      <h2>Destinos Populares en Argentina</h2>
+      <div class="destino">
+        <h3>Buenos Aires</h3>
+        <a href="">
+          <img src="./static/buenos_aires.jpg" alt="Buenos Aires" />
+        </a>
+
+        <p>
+          Explora la vibrante ciudad de Buenos Aires, conocida por su cultura,
+          arquitectura y vida nocturna.
+        </p>
+      </div>
+      <div class="destino">
+        <h3>Bariloche</h3>
+        <a href="">
+          <img src="./static/bariloche.jpg" alt="Patagonia" />
+        </a>
+        <p>
+          Descubre la majestuosa belleza natural de Bariloche, con sus montañas,
+          glaciares y lagos.
+        </p>
+      </div>
+      <!-- Agregar más destinos aquí -->
+    </section>
+
+    <section id="quienessomos">
+      <h2>Quienes somos</h2>
+      <div class="quienes">
+        <img src="./static/viajaporargentina.jpg" alt="Quienes somos" />
+        <h3>Quienes Somos</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+          reiciendis, iste fuga ullam quam beatae esse alias et ratione, soluta
+          corrupti sequi repudiandae natus quibusdam voluptate numquam
+          cupiditate eos qui?
+        </p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        ¿Tienes alguna pregunta o deseas reservar tu viaje? Contáctanos a través
+        del siguiente formulario:
+      </p>
+      <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 Viajes a Argentina</p>
+    </footer>
+  </body>
+</html>
