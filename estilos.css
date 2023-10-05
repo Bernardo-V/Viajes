@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos del formulario de registro */
+.registro-form {
+    text-align: center;
+}
+
+.registro-form h2 {
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilo básico del botón de menú */
+.menu-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo del menú desplegable */
+.menu-list {
+    display: none;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    background-color: #333;
+}
+
+.menu-list li {
+    padding: 10px;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Mostrar el menú cuando se hace hover sobre el botón */
+.menu:hover .menu-list {
+    display: block;
+}
+
+/* Estilos adicionales (opcional) */
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo de la lista de opciones cuando se hace hover */
+.menu-list li:hover {
+    background-color: #555;
+}
